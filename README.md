@@ -1,0 +1,2 @@
+# Protractor Sample Code
+AngularJSのE2Eテスト用にテンプレートを作成。テストケースを増やす毎に書き足し。

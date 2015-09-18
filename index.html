@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="app" ng-strict-di>
+<head>
+  <meta charset="UTF-8">
+  <title>E2E Test Demo</title>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="todo.js"></script>
+</head>
+<body>
+  <div ng-controller="ToDoController">
+    <form ng-click="addTodo()">
+      <input ng-model="inputTitle">
+      <input type="submit" value="Send">
+    </form>
+
+    <ul>
+      <li ng-repeat="todo in todos">
+        <label ng-bind="todo.title"></label>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
