@@ -1,16 +1,16 @@
 {
   "name": "Protractor",
   "version": "1.0.0",
-  "description": "Test",
+  "description": "Template to implement e2e test in AngularJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://a-tokyo.backlog.jp/git/FE_PROJECT/frontZ.git"
+    "url": "https://github.com/miiitaka/ProtractorTemplate.git"
   },
-  "author": "",
+  "author": "Kazuya Takami",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.8.11",
