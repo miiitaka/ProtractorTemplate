@@ -2,7 +2,8 @@
 
 /**
  * Test Runner Protractor Config File
- * https://github.com/angular/protractor
+ *
+ * @link https://github.com/angular/protractor
  * */
 var config = require('./protractor-shared-conf').config;
 
