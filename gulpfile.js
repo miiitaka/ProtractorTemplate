@@ -3,6 +3,8 @@ var
   webserver = require('gulp-webserver');
 
 gulp.task('webserver', function () {
+  'use strict';
+
   gulp.src('')
     .pipe(webserver({
       host: 'localhost',
