@@ -1,5 +1,17 @@
 'use strict';
 
+var origFn = browser.driver.controlFlow().execute;
+
+browser.driver.controlFlow().execute = function() {
+  var args = arguments;
+
+  // テスト処理速度のコントロール（exp. 100ms)
+  origFn.call(browser.driver.controlFlow(), function() {
+    return protractor.promise.delayed(100);
+  });
+  return origFn.apply(browser.driver.controlFlow(), args);
+};
+
 describe('ToDo App Test', function () {
   var
     input,
