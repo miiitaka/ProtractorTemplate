@@ -1,6 +1,6 @@
 {
   "name": "protractor-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Template to implement e2e test in AngularJS",
   "main": "index.js",
   "scripts": {
