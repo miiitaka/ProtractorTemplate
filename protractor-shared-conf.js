@@ -2,7 +2,8 @@
 
 /**
  * Test Runner Protractor Config File (Common)
- * https://github.com/angular/protractor
+ *
+ * @link https://github.com/angular/protractor
  * */
 exports.config = {
   /** selenium サーバーのアドレス */
@@ -10,7 +11,8 @@ exports.config = {
 
   /**
    * テスト実行ブラウザと条件設定
-   * https://code.google.com/p/selenium/wiki/DesiredCapabilities
+   *
+   * @link https://code.google.com/p/selenium/wiki/DesiredCapabilities
    * */
   multiCapabilities: [
     {
