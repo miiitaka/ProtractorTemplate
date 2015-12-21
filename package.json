@@ -4,7 +4,10 @@
   "description": "Template to implement e2e test in AngularJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "webdriver-manager update",
+    "start": "webdriver-manager start",
+    "protractor": "protractor protractor-conf.js"
   },
   "repository": {
     "type": "git",
@@ -14,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.8.11",
-    "gulp-webserver": "^0.9.0"
+    "gulp-webserver": "^0.9.0",
+    "protractor": "^3.0.0"
   }
 }
